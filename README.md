@@ -32,7 +32,7 @@ Follow the steps to setup and run the sample application.
 
 1.  Clone or download this repository.
     ```
-    git clone
+    git clone https://github.com/souravmishra-msft/NodeJS_SAML_App.git
     ```
 2.  First you start to install all the required dependencies listed under the `package.json` file by running the command:
     ```
@@ -41,7 +41,7 @@ Follow the steps to setup and run the sample application.
 3.  Once the command completes, you will find a folder named node_modules available in your project directory with all the dependencies installed in it.
 4.  Under the project folder, create a folder called `certificates` and copy the earlier downloaded certificate from SAML application configuration in Azure Active Directory to this newly created `certificates` folder.
 5.  To setup the local express server run on https follow the steps mentioned [here](https://javascript.plainenglish.io/enable-https-for-localhost-during-local-development-in-node-js-96204453d72b).
-6.  Under the config folder, create a main.env file and add the following in that file.
+6.  Create a folder called **config** under the project directory. Under the **config** folder, create a **main.env** file and add the following in that file.
 
     ```
     PORT = 5000
