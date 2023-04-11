@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  margin-top: 30px;
+  padding-top: 20px;
+  text-align: center;
+  width: 90%;
+}
+
+.ml-auto {
+  left: auto !important;
+  right: 0px;
+}
+
+.navbar-custom .navbar-text {
+  color: #ffff;
+  font-size: 20px;
+  width: auto;
+}
+
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  border: 2px solid #ffff;
+  border-radius: 5px;
+}
+
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #ffff;
+  margin-bottom: 5px;
+}
+
+.btn-custom {
+  border: 2px solid #ffff;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #ffff;
+  color: rgb(43, 42, 42) !important;
+}
+
+.table-container {
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.table-container table {
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+.table-container table tr .name {
+  width: 20%;
+}
+
+.table-container table tr .claimName {
+  font-weight: bold;
+}
